@@ -7,7 +7,7 @@ function AboutMe() {
                 <div className="col-7">
                     <div className="warp__link">
                         <p className="about-me__link-text">Frontend-developer</p>
-                        <a href="https://github.com/Forosta" className="about-me__link">github (project)</a>
+                        <a href="https://github.com/Forosta/About_me" className="about-me__link">github (project)</a>
                         <a href="https://t.me/igorft3" className="about-me__link">telegram</a>
                     </div>
                     <h1 className="about-me__title">Html 5, Css 3, Js, Git, БЭМ, Bootstrap</h1>
