@@ -3,7 +3,6 @@ import './App.css';
 import './bootstrap-grid.min.css'
 import Header from './Header';
 import AboutMe from './AboutMe';
-import Video from './Video';
 import Footer from './Footer';
 
 
