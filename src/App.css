@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/RalewaySemiBold.woff2') format('woff2'),
+  url('fonts/RalewaySemiBold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/RalewayRegular.woff2') format('woff2'),
+  url('fonts/RalewayRegular.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/RalewayMedium.woff2') format('woff2'),
+  url('fonts/RalewayMedium.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background: url('../public/images/fon.png') no-repeat center center / cover;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.about-me {
+  padding: 48px 32px!important;
+}
+
+.col-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-me__row {
+  margin-bottom: 100px;
+}
+
+.warp__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.about-me__link-text, .about-me__link {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.about-me__link {
+  position: relative;
+  padding-right: 70px;
+  text-decoration: none;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.about-me__link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.about-me__link::after {
+  content: '';
+  position: absolute;
+  right: 13%;
+  width: 20px;
+  height: 20px;
+  background: url('../public/images/arrow-icon.png') no-repeat center center / cover;
+}
+
+.about-me__title {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum'on, 'lnum'on;
+}
+
+.about-me__text {
+  margin-bottom: 44px;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  /*line-height: 25px;*/
+}
+
+.about-me__text span {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.about-me__img {
+  object-fit: cover;
+  /*width: 400px;*/
+  height: 500px;
+}
+
+.wrapp__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+
+.img-1 {
+  position: relative;
+  width: 430px;
+  height: 480px;
+  margin: 0;
+}
+
+.img-1::after {
+  content: '5 лет назад';
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.img-fig {
+  position: relative;
+  border-radius: 40px;
+  width: auto;
+  height: 100%;
+  margin: 0;
+}
+
+.img-fig::after {
+  content: 'Сейчас';
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.img-2 {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card {
+  border-radius: 40px;
+}
+
+.card__body {
+  position: relative;
+  background-color: #262626;
+  display: flex;
+  align-items: end;
+  padding: 36px 40px;
+}
+
+.card__body::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 155px;
+  height: 155px;
+  background: url('../public/images/fon-card.png') no-repeat center center / cover;
+}
+
+.card__text {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  font-size: 100px;
+}
+
+.title {
+  font-size: 40px;
+  color: #fff;
+}
+
+video {
+  width: 980px;
+  padding: 20px 40px;
+  height: 575px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
