@@ -37,10 +37,11 @@ function AboutMe() {
                 </div>
             </div>
             <h2 className="title">Почему я люблю анимации</h2>
-            <video controls width="560" height="315">
-                <source src="https://youtu.be/CBfqnNSBMfY" type="video/mp4" />
-                Ваш браузер не поддерживает воспроизведение видео.
-            </video>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CBfqnNSBMfY?si=dsBej5vNcD3iSrfi"
+                    title="YouTube video player" frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen></iframe>
         </div>
     )
         ;
