@@ -24,7 +24,7 @@ function AboutMe() {
                     <div className="wrapp__cards">
                         {/*<img className="about-me__img img-1 card" />*/}
                         <figure className="about-me__img img-1 card">
-                            <img src="/images/my-photo-1.jpg" alt="My Photo"/>
+                            <img src="images/my-photo-1.jpg" alt="My Photo"/>
                         </figure>
                         <div className="card card__body">
                             <h2 className="card__text">Игорь Сухарев</h2></div>
@@ -32,7 +32,7 @@ function AboutMe() {
                 </div>
                 <div className='card col-4'>
                     <figure className="img-fig">
-                        <img className="img-2" src="/images/my-photo-2.jpg" alt="My Photo"/>
+                        <img className="img-2" src="images/my-photo-2.jpg" alt="My Photo"/>
                     </figure>
                 </div>
             </div>
